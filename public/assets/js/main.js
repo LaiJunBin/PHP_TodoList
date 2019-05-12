@@ -150,8 +150,8 @@ $(function () {
             return;
 
         getTodo(id).then(res => {
+            document.getElementById('cancalSearchTodoBtn').disabled = false;
             if (res.status) {
-                document.getElementById('cancalSearchTodoBtn').disabled = false;
                 items_div.innerHTML = '';
                 appendTodo(res.data);
             } else {
