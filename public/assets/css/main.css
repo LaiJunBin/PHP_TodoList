@@ -1,0 +1,29 @@
+/* CSS File */
+
+* {
+    user-select: none;
+}
+
+header {
+    text-align: center;
+    background: #39f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 15px;
+}
+
+.item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.item-success {
+    border: 2px solid rgb(75, 255, 51);
+}
+
+:disabled {
+    cursor: no-drop;
+}
