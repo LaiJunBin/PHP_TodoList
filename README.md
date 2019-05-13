@@ -1,6 +1,6 @@
-# PHP ToDoList
+# laiPHP ToDoList
 
-基於 [PHP_Framework](https://github.com/LaiJunBin/PHP_Framework)
+基於 [laiPHP](https://github.com/LaiJunBin/laiPHP)
 
 Demo: [todolist](http://3.112.191.90/)
 
